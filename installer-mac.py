@@ -8,3 +8,4 @@ if input("Do you have Homebrew?(same, 1 & 2") == "1":
 else:
     os.system("curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh")
     os.system("/bin/bash install.sh")
+print("All dependicies installed :)")
